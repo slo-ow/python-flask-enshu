@@ -5,19 +5,6 @@
                 "authProtocol": "default"
             },
             "previewLimit": 50,
-            "server": "localhost",
-            "port": 3306,
-            "driver": "MySQL",
-            "name": "MySQL",
-            "database": "ENSHU",
-            "username": "root",
-            "password": "mysql"
-        },
-        {
-            "mysqlOptions": {
-                "authProtocol": "default"
-            },
-            "previewLimit": 50,
             "server": "18.183.129.49",
             "port": 3306,
             "driver": "MariaDB",
