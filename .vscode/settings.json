@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [       
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "18.183.129.49",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "aws-docker-mysql",
+            "database": "mysql",
+            "username": "root",
+            "password": "mysql"
+        }
+    ]
+}
