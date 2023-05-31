@@ -5,10 +5,10 @@
                 "authProtocol": "default"
             },
             "previewLimit": 50,
-            "server": "18.183.129.49",
+            "server": "35.78.117.192",
             "port": 3306,
             "driver": "MariaDB",
-            "name": "aws-docker-mysql",
+            "name": "oji-docker-mysql",
             "database": "mysql",
             "username": "root",
             "password": "mysql"
