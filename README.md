@@ -16,6 +16,8 @@ wonjin
 
 kishimoto
 
+makino
+
 # Rules
 
 - Database は ENSHU を利用すること
