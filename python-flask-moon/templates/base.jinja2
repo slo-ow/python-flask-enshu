@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>404 Not Found</title>
+    <title>None</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -63,16 +63,9 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="error-image">
-            <img class="bk-img" src="{{ url_for('static', filename='images/404.jpg')}}" alt="cute-error" />
-        </div>
-        <!-- <div class="error-code">404</div> -->
-        <div class="error-message">{{ message }}</div>
-        <div class="go-home">
-            <a href="/" class="button">Go Home</a>
-        </div>
-    </div>
+    {% block content %}
+
+    {% endblock %}
 </body>
 
 </html>

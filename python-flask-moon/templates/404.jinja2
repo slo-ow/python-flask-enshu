@@ -1,0 +1,14 @@
+{% extends "base.jinja2" %}
+
+{% block content %}
+<div class="container">
+    <div class="error-image">
+        <img class="bk-img" src="{{ url_for('static', filename='images/404.jpg')}}" alt="cute-error" />
+    </div>
+    <!-- <div class="error-code">404</div> -->
+    <div class="error-message">{{ message }}</div>
+    <div class="go-home">
+        <a href="/" class="button">Go Home</a>
+    </div>
+</div>
+{% endblock %}

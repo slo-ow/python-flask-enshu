@@ -1,0 +1,6 @@
+{% extends "base.jinja2" %}
+
+{% block content %}
+<h1>{{ post['title'] }}</h1> <!-- app.pyから配列postをもらう -->
+<p>{{ post['content'] }}</p>
+{% endblock %}
