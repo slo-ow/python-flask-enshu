@@ -14,14 +14,7 @@ posts = {
 
 @app.route('/')
 def home():
-    return 'Hello World!'
-
-# @app.route('/post/<int:post_id>') # /post/0
-# def post(post_id): # post_id = 0
-#     # return posts.get(post_id) # posts[0]
-#     post = posts.get(post_id)
-#     # return f"Post : {post['title']} , content :\n\n{post['content']}"
-#     return render_template('post.html', post=posts.get(post_id)) # templates/post.html -> post
+    return render_template('home.jinja2', posts=posts)
 
 @app.route('/post/<int:post_id>') 
 def post(post_id): 
